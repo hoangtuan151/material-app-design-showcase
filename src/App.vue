@@ -89,7 +89,7 @@ export default {
       this.skeletonLoading = false
     }, 1500);
 
-    let resp = await axios.get('/data.json')
+    let resp = await axios.get('/material-app-design-showcase/data.json')
     if (resp.data) {
       this.templates = resp.data
     }
