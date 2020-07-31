@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/material-app-design-showcase/precache-manifest.4f3d3fda301fee9931e065805a46b5e1.js"
+  "/material-app-design-showcase/precache-manifest.02ad9b6a873b89094d965638a6ddf621.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "material-showcase"});
