@@ -31,7 +31,7 @@
         target="_blank"
         text
         class="hidden-xs-only">
-        <span class="mr-2">Buy</span>
+        <span class="mr-2">Original</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
     </v-app-bar>
