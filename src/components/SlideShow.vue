@@ -11,10 +11,18 @@
           class="pa-4 pt-0"
           center-active
           _mandatory
-          :show-arrows="false"
+          :show-arrows="true"
           next-icon="mdi-hand-pointing-right"
           prev-icon="mdi-hand-pointing-left"
         >
+          <!-- <template v-slot:next>
+            <v-icon color="orange" large>mdi-hand-pointing-right</v-icon>
+          </template>
+
+          <template v-slot:prev>
+            <v-icon color="orange" large>mdi-hand-pointing-left</v-icon>
+          </template> -->
+
           <v-slide-item
             v-for="n in images.length"
             :key="n"

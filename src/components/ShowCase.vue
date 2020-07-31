@@ -9,7 +9,7 @@
         </v-card-title>
 
         <v-card-subtitle>
-          {{ templateItem.desc }}
+          {{ cardDesc }}
         </v-card-subtitle>
       </v-card>
     </v-hover>
@@ -41,6 +41,9 @@ export default {
   computed: {
     imgUrl () {
       return `https://picsum.photos/350/200?random=${new Date().getTime()}`
+    },
+    cardDesc () {
+      return this.templateItem.desc ? this.templateItem.desc : `${this.templateItem.imgs.length} Screens`
     }
   },
 
